@@ -12,7 +12,7 @@ if($tipo== 'image/jpg' || $tipo == "image/jpeg" || $tipo =="image/gif"){
 
     move_uploaded_file($archivo['tmp_name'] ,'images/'.$nombre);
 
-    header("Refresh: 65; URL=index.php");
+    header("Refresh: 5; URL=index.php");
     echo "<h1> Imagen subida correctamente </h1>";
 }
 else{

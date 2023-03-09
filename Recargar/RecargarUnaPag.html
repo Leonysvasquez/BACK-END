@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery.js"></script>
+    <script>
+ 			$(document).ready(function(){
+	    		$('#Python').click(function(){
+	       		$("body").load("c_python.html");
+	    									 });
+                                             
+	    		$('#Django').click(function(){
+	       		$("body").load("c_django.html");
+	    									 });
+
+	    		$('#Js').click(function(){
+	       		$("body").load("c_jython.html");
+	    									 });
+										});
+    
+    </script>
+</head>
+
+<body id="contenido">
+ <a href="#" id="Python">Python </a>
+
+ <a href="#" id="Django">Django</a>
+
+ <a href="#" id="Js">JavaScript</a>
+
+ <table>
+    <tr> 
+        <td>
+            HOLA MI AMOR :: 
+        </td>
+        <td id="contenido"></td>
+    </tr>
+ </table>
+
+</body>
+</html>

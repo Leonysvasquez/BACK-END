@@ -22,7 +22,7 @@
     if ($gestor):
         while (($image = readdir($gestor)) !== false):
             if($image != '.' && $image != '..'):
-                echo "<img src='images/$image' width='200px'/><br> >";
+                echo "<img src='images/$image' width='500px' height='500px'/><br>";
             endif;
         endwhile;
     endif;
